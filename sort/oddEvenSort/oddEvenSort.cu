@@ -3,9 +3,6 @@
  
  #include <cuda_runtime.h>
  
- #include "OddEvenSort.h"
- 
- 
  __device__ void swap(int *a, int *b) {
      int temp = *a;
      *a = *b;
